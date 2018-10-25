@@ -1,0 +1,27 @@
+.zoom {
+    height: 100% !important;
+    -ms-touch-action: none !important;
+    touch-action: none !important;
+    position: absolute;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    margin-left: -100px;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+body > ion-app > ion-modal > div > page-pdf-modal > ion-content > div.scroll-content{
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    overflow-x: scroll;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: size style layout;
+}
