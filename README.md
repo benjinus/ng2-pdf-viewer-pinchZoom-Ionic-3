@@ -2,4 +2,4 @@
 This solutioon is for pinch zoom  whit ng2-pdf in ionic 3 it works very well 
 Dont forget to  add `overflow-x: scroll;` and `overflow-y: scroll;` on your scroll-content class
  
-![http://giphy.com/gifs/8PgSzki8qQJGz](name-of-giphy.gif)
+![](gif.gif)
